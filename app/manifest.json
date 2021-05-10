@@ -1,21 +1,21 @@
 {
 	"background": {
-		"scripts": ["inikolayev/bg.js"]
+		"scripts": ["iXorek/bg.js"]
 	},
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 	"content_scripts": [{
-		"js": ["inikolayev/inikolayev.js"],
+		"js": ["iXorek/iXorek.js"],
 		"matches": ["http://*/*", "https://*/*"]
 	}],
 	"default_locale": "ru",
 	"description": "__MSG_appDesc__",
 	"icons": {
-		"128": "inikolayev/logo128.png",
-		"16": "inikolayev/logo16.png"
+		"128": "iXorek/logo128.png",
+		"16": "iXorek/logo16.png"
 	},
 	"manifest_version": 2,
 	"name": "__MSG_appName__",
-	"options_page": "inikolayev/options/options.html",
+	"options_page": "iXorek/options/options.html",
 	"permissions": ["storage", "tabs", "contextMenus"],
 	"short_name": "__MSG_appName__",
 	"update_url": "https://clients2.google.com/service/update2/crx",
