@@ -1,14 +1,14 @@
-const appFolder = 'app/inikolayev/';
-const distFolder = 'dist/inikolayev/';
+const appFolder = 'app/iXorek/';
+const distFolder = 'dist/iXorek/';
 const scripts = [
-  `${appFolder}inikolayev.js`,
+  `${appFolder}iXorek.js`,
   `${appFolder}bg.js`,
   `${appFolder}options/options.js`,
 ];
 const scriptsTemp = [
-  'temp/app/inikolayev/inikolayev.js',
-  'temp/app/inikolayev/bg.js',
-  'temp/app/inikolayev/options/options.js',
+  'temp/app/iXorek/iXorek.js',
+  'temp/app/iXorek/bg.js',
+  'temp/app/iXorek/options/options.js',
 ];
 
 module.exports = (grunt) => {
@@ -72,9 +72,9 @@ module.exports = (grunt) => {
       dist: {
         files: [
           {
-            'dist/inikolayev/inikolayev.js': scriptsTemp[0],
-            'dist/inikolayev/bg.js': scriptsTemp[1],
-            'dist/inikolayev/options/options.js': scriptsTemp[2],
+            'dist/iXorek/iXorek.js': scriptsTemp[0],
+            'dist/iXorek/bg.js': scriptsTemp[1],
+            'dist/iXorek/options/options.js': scriptsTemp[2],
           },
         ],
       },
@@ -85,7 +85,7 @@ module.exports = (grunt) => {
           report: 'gzip',
         },
         files: {
-          'dist/inikolayev/options/options.css': [
+          'dist/iXorek/options/options.css': [
             `${appFolder}options/options.css`,
           ],
         },
@@ -95,7 +95,7 @@ module.exports = (grunt) => {
     compress: {
       main: {
         options: {
-          archive: 'inikolayev.zip',
+          archive: 'iXorek.zip',
         },
         files: [
           {
@@ -113,7 +113,7 @@ module.exports = (grunt) => {
           {
             expand: true,
             cwd: 'app/',
-            src: ['_locales/**', 'inikolayev/options/options.css'],
+            src: ['_locales/**', 'iXorek/options/options.css'],
             dest: 'dist/',
           },
         ],
@@ -124,7 +124,7 @@ module.exports = (grunt) => {
         options: {
           /*
                     process: function(content, srcpath) {
-                      return content.replace('bg.js', 'bg.min.js').replace('inikolayev.js', 'inikolayev.min.js');
+                      return content.replace('bg.js', 'bg.min.js').replace('iXorek.js', 'iXorek.min.js');
                     }
           */
         },
