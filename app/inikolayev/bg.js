@@ -63,9 +63,7 @@
   };
   self.init();
 }))();
-const _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-15665299-28']);
-_gaq.push(['_trackPageview']);
+
 ((() => {
   const ga = document.createElement('script');
   ga.type = 'text/javascript';
