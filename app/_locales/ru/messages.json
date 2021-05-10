@@ -1,26 +1,26 @@
 {
    "appDesc": {
       "description": "The description of the application, displayed in the web store.",
-      "message": "Расширение заменяет все картинки на страницах на фотографии Игоря Николаева."
+      "message": "Расширение заменяет все картинки на страницах на фотографии Хорька."
    },
    "appName": {
       "description": "The title of the application, displayed in the web store.",
-      "message": "iNikolayev"
+      "message": "iXorek"
    },
    "contextMenuInactivate": {
       "description": "The option in context menu to inactivate the extension",
-      "message": "Отключить iNikolayev"
+      "message": "Отключить iXorek"
    },
    "optionsHeader": {
       "description": "The options page title",
-      "message": "Настройки iNikolayev"
+      "message": "Настройки iXorek"
    },
    "optionsPageActivate": {
       "description": "Text shown next to On/Off-button",
-      "message": "iNikolayev"
+      "message": "iXorek"
    },
    "optionsPageContextLink": {
       "description": "Text shown next to On/Off-button",
-      "message": "Показывать \"Отключить iNikolayev\" по правому клику мыши"
+      "message": "Показывать \"Отключить iXorek\" по правому клику мыши"
    }
 }
